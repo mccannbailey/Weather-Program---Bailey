@@ -17,7 +17,7 @@ namespace XMLWeather
             DisplayCurrent();
         }
 
-        public void DisplayCurrent()
+        public void DisplayCurrent() 
         {
             cityOutput.Text = Form1.days[0].city;
             timeLabel.Text = Form1.days[0].date;
